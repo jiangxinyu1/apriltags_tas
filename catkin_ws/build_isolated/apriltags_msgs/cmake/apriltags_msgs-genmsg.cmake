@@ -2,7 +2,7 @@
 
 message(STATUS "apriltags_msgs: 2 messages, 0 services")
 
-set(MSG_I_FLAGS "-Iapriltags_msgs:/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iapriltags_msgs:/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/melodic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,14 +17,14 @@ add_custom_target(apriltags_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg" NAME_WE)
+get_filename_component(_filename "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg" NAME_WE)
 add_custom_target(_apriltags_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "apriltags_msgs" "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg" "geometry_msgs/Pose:geometry_msgs/Point:apriltags_msgs/AprilTag:geometry_msgs/Quaternion:std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "apriltags_msgs" "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg" "geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg" NAME_WE)
+get_filename_component(_filename "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg" NAME_WE)
 add_custom_target(_apriltags_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "apriltags_msgs" "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg" "geometry_msgs/Pose:geometry_msgs/Quaternion:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "apriltags_msgs" "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg" "apriltags_msgs/AprilTag:geometry_msgs/Pose:geometry_msgs/Point:geometry_msgs/Quaternion:std_msgs/Header"
 )
 
 #
@@ -34,15 +34,15 @@ add_custom_target(_apriltags_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(apriltags_msgs
-  "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/apriltags_msgs
 )
 _generate_msg_cpp(apriltags_msgs
-  "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/apriltags_msgs
 )
 
@@ -60,9 +60,9 @@ add_custom_target(apriltags_msgs_generate_messages_cpp
 add_dependencies(apriltags_msgs_generate_messages apriltags_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg" NAME_WE)
+get_filename_component(_filename "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg" NAME_WE)
 add_dependencies(apriltags_msgs_generate_messages_cpp _apriltags_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg" NAME_WE)
+get_filename_component(_filename "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg" NAME_WE)
 add_dependencies(apriltags_msgs_generate_messages_cpp _apriltags_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -75,15 +75,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS apriltags_msgs_generate_messages_cp
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(apriltags_msgs
-  "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/apriltags_msgs
 )
 _generate_msg_eus(apriltags_msgs
-  "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/apriltags_msgs
 )
 
@@ -101,9 +101,9 @@ add_custom_target(apriltags_msgs_generate_messages_eus
 add_dependencies(apriltags_msgs_generate_messages apriltags_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg" NAME_WE)
+get_filename_component(_filename "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg" NAME_WE)
 add_dependencies(apriltags_msgs_generate_messages_eus _apriltags_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg" NAME_WE)
+get_filename_component(_filename "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg" NAME_WE)
 add_dependencies(apriltags_msgs_generate_messages_eus _apriltags_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -116,15 +116,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS apriltags_msgs_generate_messages_eu
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(apriltags_msgs
-  "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/apriltags_msgs
 )
 _generate_msg_lisp(apriltags_msgs
-  "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/apriltags_msgs
 )
 
@@ -142,9 +142,9 @@ add_custom_target(apriltags_msgs_generate_messages_lisp
 add_dependencies(apriltags_msgs_generate_messages apriltags_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg" NAME_WE)
+get_filename_component(_filename "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg" NAME_WE)
 add_dependencies(apriltags_msgs_generate_messages_lisp _apriltags_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg" NAME_WE)
+get_filename_component(_filename "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg" NAME_WE)
 add_dependencies(apriltags_msgs_generate_messages_lisp _apriltags_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -157,15 +157,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS apriltags_msgs_generate_messages_li
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(apriltags_msgs
-  "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/apriltags_msgs
 )
 _generate_msg_nodejs(apriltags_msgs
-  "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/apriltags_msgs
 )
 
@@ -183,9 +183,9 @@ add_custom_target(apriltags_msgs_generate_messages_nodejs
 add_dependencies(apriltags_msgs_generate_messages apriltags_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg" NAME_WE)
+get_filename_component(_filename "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg" NAME_WE)
 add_dependencies(apriltags_msgs_generate_messages_nodejs _apriltags_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg" NAME_WE)
+get_filename_component(_filename "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg" NAME_WE)
 add_dependencies(apriltags_msgs_generate_messages_nodejs _apriltags_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -198,15 +198,15 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS apriltags_msgs_generate_messages_no
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(apriltags_msgs
-  "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
+  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/apriltags_msgs
 )
 _generate_msg_py(apriltags_msgs
-  "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/melodic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/melodic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/apriltags_msgs
 )
 
@@ -224,9 +224,9 @@ add_custom_target(apriltags_msgs_generate_messages_py
 add_dependencies(apriltags_msgs_generate_messages apriltags_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg" NAME_WE)
+get_filename_component(_filename "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg" NAME_WE)
 add_dependencies(apriltags_msgs_generate_messages_py _apriltags_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg" NAME_WE)
+get_filename_component(_filename "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg" NAME_WE)
 add_dependencies(apriltags_msgs_generate_messages_py _apriltags_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

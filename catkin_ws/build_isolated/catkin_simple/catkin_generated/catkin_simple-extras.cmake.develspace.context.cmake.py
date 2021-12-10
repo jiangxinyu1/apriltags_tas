@@ -2,7 +2,7 @@
 DEVELSPACE = 'TRUE' == 'TRUE'
 INSTALLSPACE = 'FALSE' == 'TRUE'
 
-CATKIN_DEVEL_PREFIX = '/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/catkin_simple'
+CATKIN_DEVEL_PREFIX = '/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/catkin_simple'
 
 CATKIN_GLOBAL_BIN_DESTINATION = 'bin'
 CATKIN_GLOBAL_ETC_DESTINATION = 'etc'
@@ -20,14 +20,14 @@ CATKIN_PACKAGE_LIBEXEC_DESTINATION = 'lib/catkin_simple'
 CATKIN_PACKAGE_PYTHON_DESTINATION = 'lib/python2.7/dist-packages/catkin_simple'
 CATKIN_PACKAGE_SHARE_DESTINATION = 'share/catkin_simple'
 
-CMAKE_BINARY_DIR = '/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/catkin_simple'
-CMAKE_CURRENT_BINARY_DIR = '/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/catkin_simple'
-CMAKE_CURRENT_SOURCE_DIR = '/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/catkin_simple'
-CMAKE_INSTALL_PREFIX = '/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated'
-CMAKE_SOURCE_DIR = '/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/catkin_simple'
+CMAKE_BINARY_DIR = '/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/catkin_simple'
+CMAKE_CURRENT_BINARY_DIR = '/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/catkin_simple'
+CMAKE_CURRENT_SOURCE_DIR = '/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/catkin_simple'
+CMAKE_INSTALL_PREFIX = '/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated'
+CMAKE_SOURCE_DIR = '/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/catkin_simple'
 
-PKG_CMAKE_DIR = '/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/catkin_simple/share/catkin_simple/cmake'
+PKG_CMAKE_DIR = '/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/catkin_simple/share/catkin_simple/cmake'
 
 PROJECT_NAME = 'catkin_simple'
-PROJECT_BINARY_DIR = '/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/catkin_simple'
-PROJECT_SOURCE_DIR = '/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/catkin_simple'
+PROJECT_BINARY_DIR = '/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/catkin_simple'
+PROJECT_SOURCE_DIR = '/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/catkin_simple'

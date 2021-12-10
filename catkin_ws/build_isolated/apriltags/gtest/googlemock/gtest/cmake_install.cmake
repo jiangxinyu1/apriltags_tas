@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated")
+  set(CMAKE_INSTALL_PREFIX "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Dapriltags_EXPORTS
 
-CXX_INCLUDES = -I/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags/include -I/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags/include/AprilTags -I/usr/include/eigen3 -isystem /usr/include/opencv 
+CXX_INCLUDES = -I/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags/include -I/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags/include/AprilTags -I/usr/include/eigen3 -isystem /usr/include/opencv 
 

@@ -12,8 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/apriltags.dir/src/TagDetector.cc.o"
   "CMakeFiles/apriltags.dir/src/TagFamily.cc.o"
   "CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.o"
-  "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags/lib/libapriltags.pdb"
-  "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags/lib/libapriltags.so"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags/lib/libapriltags.pdb"
+  "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags/lib/libapriltags.so"
 )
 
 # Per-language clean rules from dependency scanning.

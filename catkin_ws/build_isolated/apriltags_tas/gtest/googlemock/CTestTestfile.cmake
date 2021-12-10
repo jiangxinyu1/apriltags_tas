@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest/googlemock
-# Build directory: /home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_tas/gtest/googlemock
+# Build directory: /home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_tas/gtest/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

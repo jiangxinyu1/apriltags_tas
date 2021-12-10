@@ -67,14 +67,14 @@ set(apriltags_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(apriltags_msgs_SOURCE_PREFIX /home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs)
-  set(apriltags_msgs_DEVEL_PREFIX /home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs)
+  set(apriltags_msgs_SOURCE_PREFIX /home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs)
+  set(apriltags_msgs_DEVEL_PREFIX /home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs)
   set(apriltags_msgs_INSTALL_PREFIX "")
   set(apriltags_msgs_PREFIX ${apriltags_msgs_DEVEL_PREFIX})
 else()
   set(apriltags_msgs_SOURCE_PREFIX "")
   set(apriltags_msgs_DEVEL_PREFIX "")
-  set(apriltags_msgs_INSTALL_PREFIX /home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated)
+  set(apriltags_msgs_INSTALL_PREFIX /home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated)
   set(apriltags_msgs_PREFIX ${apriltags_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated/lib;/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags/lib;/opt/ros/melodic/lib)
+    foreach(path /home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated/lib;/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

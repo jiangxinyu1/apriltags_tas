@@ -67,14 +67,14 @@ set(apriltags_tas_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(apriltags_tas_SOURCE_PREFIX /home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_tas)
-  set(apriltags_tas_DEVEL_PREFIX /home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags_tas)
+  set(apriltags_tas_SOURCE_PREFIX /home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_tas)
+  set(apriltags_tas_DEVEL_PREFIX /home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags_tas)
   set(apriltags_tas_INSTALL_PREFIX "")
   set(apriltags_tas_PREFIX ${apriltags_tas_DEVEL_PREFIX})
 else()
   set(apriltags_tas_SOURCE_PREFIX "")
   set(apriltags_tas_DEVEL_PREFIX "")
-  set(apriltags_tas_INSTALL_PREFIX /home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated)
+  set(apriltags_tas_INSTALL_PREFIX /home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated)
   set(apriltags_tas_PREFIX ${apriltags_tas_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(apriltags_tas_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags_tas/include;/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_tas/include " STREQUAL " ")
+if(NOT "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags_tas/include;/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_tas/include " STREQUAL " ")
   set(apriltags_tas_INCLUDE_DIRS "")
-  set(_include_dirs "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags_tas/include;/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_tas/include")
+  set(_include_dirs "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags_tas/include;/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_tas/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/aprilta
         message(FATAL_ERROR "Project 'apriltags_tas' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'apriltags_tas' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_tas/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'apriltags_tas' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_tas/${idir}'.  ${_report}")
     endif()
     _list_append_unique(apriltags_tas_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags_tas/lib;/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/catkin_simple/lib;/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs/lib;/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags/lib;/opt/ros/melodic/lib)
+    foreach(path /home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags_tas/lib;/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/catkin_simple/lib;/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs/lib;/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

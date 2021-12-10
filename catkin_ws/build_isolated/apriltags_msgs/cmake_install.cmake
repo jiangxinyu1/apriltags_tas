@@ -1,8 +1,8 @@
-# Install script for directory: /home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs
+# Install script for directory: /home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated")
+  set(CMAKE_INSTALL_PREFIX "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,142 +49,142 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated/_setup_util.py")
+   "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated" TYPE PROGRAM FILES "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated" TYPE PROGRAM FILES "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated/env.sh")
+   "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated" TYPE PROGRAM FILES "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated" TYPE PROGRAM FILES "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated/setup.bash;/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated/local_setup.bash")
+   "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated/setup.bash;/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated" TYPE FILE FILES
-    "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/setup.bash"
-    "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated" TYPE FILE FILES
+    "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/setup.bash"
+    "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated/setup.sh;/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated/local_setup.sh")
+   "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated/setup.sh;/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated" TYPE FILE FILES
-    "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/setup.sh"
-    "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated" TYPE FILE FILES
+    "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/setup.sh"
+    "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated/setup.zsh;/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated/local_setup.zsh")
+   "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated/setup.zsh;/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated" TYPE FILE FILES
-    "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/setup.zsh"
-    "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated" TYPE FILE FILES
+    "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/setup.zsh"
+    "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated/.rosinstall")
+   "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/install_isolated" TYPE FILE FILES "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/install_isolated" TYPE FILE FILES "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/apriltags_msgs/msg" TYPE FILE FILES
-    "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg"
-    "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg"
+    "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTagDetections.msg"
+    "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/msg/AprilTag.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/apriltags_msgs/cmake" TYPE FILE FILES "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/apriltags_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/apriltags_msgs/cmake" TYPE FILE FILES "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/apriltags_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs/include/apriltags_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs/include/apriltags_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs/share/roseus/ros/apriltags_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs/share/roseus/ros/apriltags_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs/share/common-lisp/ros/apriltags_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs/share/common-lisp/ros/apriltags_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs/share/gennodejs/ros/apriltags_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs/share/gennodejs/ros/apriltags_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs/lib/python2.7/dist-packages/apriltags_msgs")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs/lib/python2.7/dist-packages/apriltags_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs/lib/python2.7/dist-packages/apriltags_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/devel_isolated/apriltags_msgs/lib/python2.7/dist-packages/apriltags_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/apriltags_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/apriltags_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/apriltags_msgs/cmake" TYPE FILE FILES "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/apriltags_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/apriltags_msgs/cmake" TYPE FILE FILES "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/apriltags_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/apriltags_msgs/cmake" TYPE FILE FILES
-    "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/apriltags_msgsConfig.cmake"
-    "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/apriltags_msgsConfig-version.cmake"
+    "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/apriltags_msgsConfig.cmake"
+    "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/catkin_generated/installspace/apriltags_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/apriltags_msgs" TYPE FILE FILES "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/apriltags_msgs" TYPE FILE FILES "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/src/apriltags_tas/apriltags_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/gtest/cmake_install.cmake")
+  include("/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/gtest/cmake_install.cmake")
 
 endif()
 
@@ -196,5 +196,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/xinyu/workspace/360/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/xinyu/workspace/360/apriltag_Dir/apriltags_tas/catkin_ws/build_isolated/apriltags_msgs/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
